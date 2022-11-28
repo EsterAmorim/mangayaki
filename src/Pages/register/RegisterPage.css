@@ -1,0 +1,58 @@
+.register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 456px;
+    height: 395px;
+    padding: 35px;
+}
+
+.area-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 170vh;
+    justify-content: center;
+    align-items: center;
+}
+
+section.area-register {
+    position: absolute;
+    width: 700px;
+    height: 582px;
+    left: 590px;
+    top: 201px;
+    opacity: 1.4;
+}
+
+.register form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+.register input {
+    margin-top: 10px;
+    height: 45px;
+    width: 470px;
+}
+
+.ouregister {
+    position: absolute;
+    width: 333px;
+    height: 4px;
+    left: 367px;
+    top: 500px;
+    background: #4C369E;
+}
+
+.twoouregister {
+    position: absolute;
+    width: 333px;
+    height: 4px;
+    left: -1px;
+    top: 500px;
+    background: #4C369E;
+}
