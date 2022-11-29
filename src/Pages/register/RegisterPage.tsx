@@ -24,10 +24,13 @@ function RegisterPage() {
     const goToInteressePage = () => {
         navigate('/interesse');
     }
+    const goToHomePage = () => {
+        navigate('/');
+    }
     return (
         <main>
             <body>
-                <img src={logo} alt='logo' className='Logo'></img>
+                <img src={logo} alt='logo' className='Logoin' onClick={goToHomePage}></img>
                 <section className='area-register'>
                     <div className='register'>
                         <form>

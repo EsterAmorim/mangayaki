@@ -56,3 +56,8 @@ section.area-register {
     top: 500px;
     background: #4C369E;
 }
+
+.Logoin {
+    display: flex;
+    height: 100px;
+}

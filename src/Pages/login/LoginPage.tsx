@@ -22,10 +22,13 @@ function LoginPage() {
     const goToRegisterPage = () => {
         navigate('/register');
     }
+    const goToHomePage = () => {
+        navigate('/');
+    }
     return (
         <main>
             <body>
-                <img src={logo} alt='logo' className='Logoin'></img>
+                <img src={logo} alt='logo' className='Logoin' onClick={goToHomePage}></img>
                 <section className='area-login'>
                     <div className='login'>
                         <form>
@@ -76,11 +79,11 @@ function LoginPage() {
                                 data-testid="login-button"
                                 disabled={!isEmailValid(form.email.value) || !form.password.value}> Entrar</button>
                             <button type='button' data-testid="register-button"
-                            onClick={goToRegisterPage}> Criar nova conta</button>
-                    </form>
-                </div>
-            </section>
-        </body>
+                                onClick={goToRegisterPage}> Criar nova conta</button>
+                        </form>
+                    </div>
+                </section>
+            </body>
         </main >
     );
 }

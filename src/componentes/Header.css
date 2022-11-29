@@ -1,32 +1,83 @@
-/*
-.logo{
-    margin-left: 226px;
-}
-
-.logo img{
-    height: 60px;
-    border: none;
-}*/
 * {
     margin: 0;
     box-sizing: border-box;
 }
 
+.Logo {
+    display: flex;
+    height: 55px;
+    margin-left: 10vh;
+    cursor: pointer;
+}
 
-.nav-style {
+.user {
+    display: flex;
+    margin-left: auto;
+}
+
+.buttonzinho {
+    cursor: pointer;
+    border: none;
+    display: block;
+    font-size: 15px;
+    color: #ffff;
+    text-transform: uppercase;
+    height: 50px;
+    background: #130A58;
+    border-radius: 4px;
+    transform: rotate(-0.1deg);
+    cursor: pointer;
+}
+
+button:active {
+    opacity: 0.8;
+}
+
+button:disabled {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+
+
+.nav-style a {
     list-style: none;
     margin-left: 20px;
     text-decoration: none;
     font-weight: normal;
-    font-size:x-large;
+    font-size: x-large;
     color: white;
     opacity: 1;
-    
+
 }
-.nav-style li{
+
+.nav-style li {
     margin: 23px 0px;
     cursor: pointer;
+    list-style: none;
 }
+
+.nav-style .homeicon {
+    height: 35px;
+    margin: -10px;
+}
+
+.nav-style .recenticon {
+    height: 35px;
+    margin: -10px;
+}
+
+.nav-style .topicon {
+    height: 35px;
+    margin: -10px;
+}
+
+.nav-style .genreicon {
+    height: 35px;
+    margin: -10px;
+}
+
+
 /* ---------------- Navbar and burger menu ------------------ */
 nav {
     width: 100%;
@@ -50,14 +101,14 @@ nav {
 .burger-bar {
     width: 4em;
     height: 0.5em;
-    background-color:#FFFF;
+    background-color: #FFFF;
     border-radius: 0.5em;
 }
 
 .menu {
     width: 18%;
     height: 90vh;
-    background-color:#4C369E ;
+    background-color: #4C369E;
     position: absolute;
     top: 0;
     z-index: -1;
@@ -75,17 +126,17 @@ nav {
 
 /* ----- animations--------- */
 /* clicked */
-.burger-bar.clicked:nth-child(1){
+.burger-bar.clicked:nth-child(1) {
     transform: rotate(45deg) translate(0.75em, 1.25em);
     transition: ease-out 0.5s;
 }
 
-.burger-bar.clicked:nth-child(2){
+.burger-bar.clicked:nth-child(2) {
     transform: scale(0.1);
     transition: ease-out 0.5s;
 }
 
-.burger-bar.clicked:nth-child(3){
+.burger-bar.clicked:nth-child(3) {
     transform: rotate(135deg) translate(-0.5em, 1em);
     transition: ease-out 0.5s;
 }
