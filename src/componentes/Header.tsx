@@ -6,6 +6,7 @@ import genreicon from './imagens/genreicon.png';
 import topicon from './imagens/topicon.png';
 import homeicon from './imagens/homeicon.png';
 import usericon from './imagens/usericon.png';
+import Slide from './slide';
 import './Header.css';
 
 const Header = () => {
@@ -53,6 +54,9 @@ const Header = () => {
             </nav>
 
             <div className={menu_class}></div>
+            <div>
+                <Slide />
+            </div>
             <div className={nav_class}>
                 <ul className="nav-style">
                     <li><img src={homeicon} alt='homeicon' className="homeicon"></img><a href="/">Inicío</a></li>
@@ -61,8 +65,10 @@ const Header = () => {
                     <li><img src={genreicon} alt='genreicon' className="genreicon"></img><a href="#">Genêros</a></li>
                 </ul>
             </div>
+
         </div>
     )
 }
 
 export default Header;
+

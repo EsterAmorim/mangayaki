@@ -2,9 +2,8 @@ import React from 'react';
 import Header from '../../componentes/Header';
 import Section from '../../componentes/Section';
 
-function HomePage() {
+function HomePage(){
     
-
     return (
         <div>
         <Header/>

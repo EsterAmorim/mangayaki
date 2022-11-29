@@ -1,0 +1,83 @@
+.carousel{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel .slide{
+    background-color: #E7D1F4;
+    height: 80vh;
+}
+
+.carousel .slide img{
+    max-height: 100%;
+    width: auto;
+}
+
+.image{
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+
+.carousel .slide .recua{
+    height: 50vh;
+}
+
+
+@media only screen and (max-width:1200px){
+    .carousel{
+        height: 90vh;
+    }
+    .carousel .slide{
+        height: 100vh;
+    }
+    .carousel .slide img{
+        margin:10vh auto;
+        width: 100vw;
+    }
+}
+
+
+@media only screen and (max-width: 900px){
+    .carousel{
+        height: 80vh;
+    }
+    .carousel .slide img{
+        margin:10vh auto;
+        width: 100vw;
+    }
+}
+
+
+@media only screen and (max-width: 750px){
+    .carousel{
+        height: 70vh;
+    }
+    .carousel .slide img{
+        margin:10vh auto;
+        width: 100vw;
+    }
+}
+
+
+@media only screen and (max-width:650px){
+    .carousel{
+        height: 60vh;
+    }
+    .carousel .slide img{
+        margin:10vh auto;
+        width: 100vw;
+    }
+}
+
+
+@media only screen and (max-width:500px){
+    .carousel{
+        height: 50vh;
+    }
+    .carousel .slide img{
+        margin:10vh auto;
+        width: 100vw;
+    }
+}
