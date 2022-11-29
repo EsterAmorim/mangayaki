@@ -3,12 +3,7 @@ body {
   background-color: #ECE7FE;
   width: 100%;
   font-family: 'Niramit', sans-serif;
-  overflow: hidden;
-  background-image: url(./componentes/imagens/polvinhocutecuteroxo.png);
-  background-repeat: no-repeat;
-  background-position: -818px -176px;
-  background-size: 3000px;
-  background-blend-mode: soft-light;
+  overflow-y: scroll;
 }
 
 
