@@ -87,6 +87,7 @@ nav {
     display: flex;
     justify-content: flex-start;
     padding: 1em;
+    z-index: 2;
 }
 
 .burger-menu {
@@ -117,12 +118,14 @@ nav {
 
 }
 
+
+/* ------------- sliding menu ------------------
 .teste {
     display: flex;
     flex-direction: column;
 }
 
-/* ------------- sliding menu ------------------ */
+*/
 .hidden {
     display: none;
 }

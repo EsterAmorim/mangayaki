@@ -18,7 +18,7 @@ section.area-login {
     position: absolute;
     width: 700px;
     height: 582px;
-    left: 590px;
+    margin: 0% 27% 0%;
     top: 201px;
     background: #e2dce8;
     opacity: 1.4;
@@ -38,7 +38,7 @@ section.area-login {
 
 .login form {
     display: flex;
-    width: 100%;
+    width: 123%;
     flex-direction: column;
 }
 
@@ -53,7 +53,7 @@ section.area-login {
     width: 333px;
     height: 4px;
     left: 367px;
-    top: 421px;
+    top:365px;
     background: #4C369E;
 }
 
@@ -62,7 +62,7 @@ section.area-login {
     width: 333px;
     height: 4px;
     left: -1px;
-    top: 421px;
+    top:365px;
     background: #4C369E;
 }
 
@@ -103,4 +103,65 @@ button:active {
 button:disabled {
     opacity: 0.7;
     cursor: not-allowed;
+}
+
+
+@media only screen and (max-width:1200px){
+
+    section.area-login{
+        margin: 0% 21% 0%;
+    }
+
+}
+
+
+@media only screen and (max-width:1000px){
+
+    section.area-login{
+        margin: 0% 15% 0%;
+    }
+
+}
+
+
+@media only screen and (max-width:900px){
+
+    section.area-login{
+        margin: 0% 23% 0%;
+        width: 450px;
+        height: 469px
+    }
+    
+    .login input{
+        height: 32px;
+        width: 379px;
+    }
+    
+    .ou {
+        width: 206px;
+        left: 244px;
+        top: 284px;
+    }
+    
+    .twoou {
+        width: 206px;
+        top: 284px;
+    }
+
+}
+
+@media only screen and (max-width:600px){
+
+    section.area-login{
+        margin: 0% 12% 0%;
+    }
+
+}
+
+@media only screen and (max-width:550px){
+
+    section.area-login{
+        margin: 0% 5% 0%;
+    }
+
 }

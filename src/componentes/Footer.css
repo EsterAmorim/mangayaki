@@ -1,0 +1,13 @@
+footer {
+    width: 100%;
+    height: 5em;
+    justify-content: flex-start;
+    padding: 1em;
+    background: #010101;
+}
+
+footer h3{
+    color: #fff;
+    font-size: initial;
+    text-align: -webkit-center;
+}

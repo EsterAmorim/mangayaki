@@ -49,18 +49,17 @@ const Header = () => {
                     <button type="button" onClick={goToLoginPage} className="buttonzinho">Fazer Login</button>
                 </div>
             </nav>
-            <div className="teste">
-                <div>
-                    <Slide />
-                </div>
-                <div className={menu_class}>
-                    <ul className="nav-style">
-                        <li><img src={homeicon} alt='homeicon' className="homeicon"></img><a href="/">Inicío</a></li>
-                        <li><img src={recenticon} alt='recenticon' className="recenticon"></img><a href="#">Recentes</a></li>
-                        <li><img src={topicon} alt='topicon' className="topicon"></img><a href="#">Top</a></li>
-                        <li><img src={genreicon} alt='genreicon' className="genreicon"></img><a href="#">Genêros</a></li>
-                    </ul>
-                </div>
+
+            <div>
+                <Slide />
+            </div>
+            <div className={menu_class}>
+                <ul className="nav-style">
+                    <li><img src={homeicon} alt='homeicon' className="homeicon"></img><a href="/">Inicío</a></li>
+                    <li><img src={recenticon} alt='recenticon' className="recenticon"></img><a href="#">Recentes</a></li>
+                    <li><img src={topicon} alt='topicon' className="topicon"></img><a href="#">Top</a></li>
+                    <li><img src={genreicon} alt='genreicon' className="genreicon"></img><a href="#">Genêros</a></li>
+                </ul>
             </div>
         </div>
     )

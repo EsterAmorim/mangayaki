@@ -2,7 +2,7 @@ body {
   background-color: #ECE7FE;
   width: 100%;
   font-family: 'Niramit', sans-serif;
-  overflow-y: scroll;
+  overflow: auto;
 }
 
 p {
