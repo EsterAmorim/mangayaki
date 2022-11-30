@@ -20,25 +20,22 @@ const Headerglobal = () => {
     const [burger_class, setBurgerClass] = useState("burger-bar unclicked")
     const [menu_class, setMenuClass] = useState("menu hidden")
     const [isMenuClicked, setIsMenuClicked] = useState(false)
-    const [nav_class, setNavClass] = useState("nav hidden")
 
     // toggle burger menu change
     const updateMenu = () => {
         if (!isMenuClicked) {
             setBurgerClass("burger-bar clicked")
             setMenuClass("menu visible")
-            setNavClass("nav visible")
         }
         else {
             setBurgerClass("burger-bar unclicked")
             setMenuClass("menu hidden")
-            setNavClass("nav hidden")
         }
         setIsMenuClicked(!isMenuClicked)
     }
 
     return (
-        <div style={{ width: '100%', height: '100vh' }}>
+        <div>
             <nav>
                 <div className="burger-menu" onClick={updateMenu}>
                     <div className={burger_class} ></div>
@@ -53,14 +50,12 @@ const Headerglobal = () => {
             </nav>
 
             <div className={menu_class}></div>
-            <div className={nav_class}>
                 <ul className="nav-style">
                     <li><img src={homeicon} alt='homeicon' className="homeicon"></img><a href="/">Inicío</a></li>
                     <li><img src={recenticon} alt='recenticon' className="recenticon"></img><a href="#">Recentes</a></li>
                     <li><img src={topicon} alt='topicon' className="topicon"></img><a href="#">Top</a></li>
                     <li><img src={genreicon} alt='genreicon' className="genreicon"></img><a href="#">Genêros</a></li>
                 </ul>
-            </div>
         </div>
     )
 }
