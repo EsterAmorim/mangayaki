@@ -1,0 +1,61 @@
+.homeC {
+    margin: 15%;
+}
+
+
+.popular ul{
+    display: flex;
+    list-style: none;
+}
+.popular img{
+    width: 191px;
+    height: 236px;
+    margin: 10px;
+    border-radius: 3%;
+}
+
+.popular h2{
+    margin-top: -40px;
+    margin-left: 0px;
+}
+
+.bestM{
+    margin-top: 10%;
+}
+
+.bestM ul{
+    display: flex;
+    list-style: none;
+}
+.bestM img{
+    width: 191px;
+    height: 236px;
+    margin: 10px;
+    border-radius: 3%;
+}
+
+.bestM h2{
+    margin-top: -40px;
+    margin-left: 0px;
+}
+
+
+.bestY{
+    margin-top: 10%;
+}
+
+.bestY ul{
+    display: flex;
+    list-style: none;
+}
+.bestY img{
+    width: 191px;
+    height: 236px;
+    margin: 10px;
+    border-radius: 3%;
+}
+
+.bestY h2{
+    margin-top: -40px;
+    margin-left: 0px;
+}

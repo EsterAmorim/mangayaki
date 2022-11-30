@@ -111,11 +111,12 @@ nav {
     background-color: #4C369E;
     position: absolute;
     top: 70px;
+    border-radius: 10px;
     z-index: -1;
 
 }
 
-.teste{
+.teste {
     display: flex;
     flex-direction: column;
 }
