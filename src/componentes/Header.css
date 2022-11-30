@@ -39,7 +39,6 @@ button:disabled {
 }
 
 
-
 .nav-style a {
     list-style: none;
     margin-left: 20px;
@@ -52,9 +51,10 @@ button:disabled {
 }
 
 .nav-style li {
-    margin: 23px 0px;
+    margin: 40px 0px;
     cursor: pointer;
     list-style: none;
+    max-width: 150px;
 }
 
 .nav-style .homeicon {
@@ -107,13 +107,18 @@ nav {
 
 .menu {
     width: 18%;
-    height: 90vh;
+    height: 50vh;
     background-color: #4C369E;
     position: absolute;
-    top: 0;
+    top: 70px;
     z-index: -1;
+
 }
 
+.teste{
+    display: flex;
+    flex-direction: column;
+}
 
 /* ------------- sliding menu ------------------ */
 .hidden {
