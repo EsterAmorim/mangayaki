@@ -7,7 +7,9 @@ function HomePage(){
     return (
         <div>
         <Header/>
+        <div className='section'>
         <Section/>
+        </div>
         </div>
     )
 }
