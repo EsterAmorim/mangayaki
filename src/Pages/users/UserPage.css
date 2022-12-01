@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.LogoUser {
+    display: flex;
+    height: 55px;
+    margin-left: 10vh;
+    cursor: pointer;
+}
+
+.menuuser-usermenu {
+    display: flex;
+    margin-left: auto;
+}
+
+.buttonzinhologout {
+    cursor: pointer;
+    border: none;
+    display: block;
+    font-size: 15px;
+    color: #ffff;
+    text-transform: uppercase;
+    height: 50px;
+    background: #130A58;
+    border-radius: 4px;
+    transform: rotate(-0.1deg);
+    cursor: pointer;
+}
+
+button:active {
+    opacity: 0.8;
+}
+
+button:disabled {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+/* usermenu */
+.nav-styleusermenu a {
+    list-style: none;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: x-large;
+    color: white;
+    opacity: 1;
+
+}
+
+.nav-styleusermenu li {
+    margin: 40px 0px;
+    cursor: pointer;
+    list-style: none;
+    max-width: 150px;
+}
+
+.nav-styleusermenu .perfilicon {
+    height: 35px;
+    margin: -10px;
+}
+
+.nav-styleusermenu .favicon {
+    height: 35px;
+    margin: -10px;
+}
+
+.nav-styleusermenu .conficon {
+    height: 35px;
+    margin: -10px;
+}
+
+.nav-styleusermenu .logouticon {
+    height: 35px;
+    margin: -10px;
+}
+
+/* menu do usuario precisa ser corrigido!!! 
+    está na posição errada*/
+.meuuser-usermenu {
+    height: 100%;
+    width: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.usermenu {
+    width: 18%;
+    height: 50vh;
+    background-color: #130A58;
+    position: fixed;
+    top: 3px;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+/*click event*/
+
+
+.menuuser-bar.clicked:nth-child(1){
+    display: flex;
+    margin-left: auto;
+    width: 253px;
+    height: 102px;
+    background: #2B2367;
+    border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.menuuser-bar.clicked:nth-child(2){
+    display: none;
+}
+
+/*unclick*/
+.menuuser-bar.unclicked:nth-child(1){
+    display: flex;
+    margin-left: auto;
+}
+
+.menuuser-bar.unclicked h2{
+    display: none;
+}
+
+.menuuser-bar.unclicked:nth-child(2){
+    display: flex;
+    margin-left: auto;
+}
+
+
+
+
+/* ---------------- Navbar and burger menu ------------------ */
+nav {
+    position: fixed;
+    width: 100%;
+    height: 5em;
+    background-color: #4C369E;
+    display: flex;
+    justify-content: flex-start;
+    padding: 1em;
+    z-index: 2;
+}
+
+.burger-menulogout {
+    height: 100%;
+    width: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.burger-barlogout {
+    width: 4em;
+    height: 0.5em;
+    background-color: #FFFF;
+    border-radius: 0.5em;
+}
+
+.menulogout {
+    width: 18%;
+    height: 50vh;
+    background-color: #4C369E;
+    position: fixed;
+    top: 70px;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.nav-stylelogout a {
+    list-style: none;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: x-large;
+    color: white;
+    opacity: 1;
+
+}
+
+.nav-stylelogout li {
+    margin: 40px 0px;
+    cursor: pointer;
+    list-style: none;
+    max-width: 150px;
+}
+
+.nav-stylelogout .homeiconlogout {
+    height: 35px;
+    margin: -10px;
+}
+
+.nav-stylelogout .recenticonlogout {
+    height: 35px;
+    margin: -10px;
+}
+
+.nav-stylelogout .topiconlogout {
+    height: 35px;
+    margin: -10px;
+}
+
+.nav-stylelogout .genreiconlogout {
+    height: 35px;
+    margin: -10px;
+}
+
+/* ------------- sliding menu ------------------*/
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: inherit;
+}
+
+/* ----- animations--------- */
+/* clicked */
+.burger-barlogout.clicked:nth-child(1) {
+    transform: rotate(45deg) translate(0.75em, 1.25em);
+    transition: ease-out 0.5s;
+}
+
+.burger-barlogout.clicked:nth-child(2) {
+    transform: scale(0.1);
+    transition: ease-out 0.5s;
+}
+
+.burger-barlogout.clicked:nth-child(3) {
+    transform: rotate(135deg) translate(-0.5em, 1em);
+    transition: ease-out 0.5s;
+}
+
+/* unclicked */
+.burger-barlogout.unclicked {
+    transform: rotate(0) translate(0);
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+}
+
+/* layout sessões*/
+
+.homeU {
+    margin: 15% 15% -10% 15%;
+
+}
+
+
+.history ul {
+    display: flex;
+    list-style: none;
+    width: 1083px;
+    height: 130px;
+    background: #C5BEE2;
+    border-radius: 10px;
+}
+
+.history li {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background: #D9D9D9;
+    margin-left: 40px;
+    margin-top: 16px;
+}
+
+.history h2 {
+    margin-top: -40px;
+    margin-left: 0px;
+}
+
+.fav {
+    margin-top: 10%;
+}
+
+.fav ul {
+    display: flex;
+    list-style: none;
+}
+
+.fav img {
+    width: 191px;
+    height: 236px;
+    margin: 10px;
+    border-radius: 3%;
+}
+
+.fav h2 {
+    margin-top: -40px;
+    margin-left: 0px;
+}
+
+
+.sugest {
+    margin-top: 10%;
+}
+
+.sugest ul {
+    display: flex;
+    list-style: none;
+}
+
+.sugest img {
+    width: 191px;
+    height: 236px;
+    margin: 10px;
+    border-radius: 3%;
+}
+
+.sugest h2 {
+    margin-top: -40px;
+    margin-left: 0px;
+}
+
+
+/* menu do usuario */
