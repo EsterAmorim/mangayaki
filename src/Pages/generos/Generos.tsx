@@ -1,15 +1,19 @@
 import React, { useState } from "react";
 import { useNavigate } from 'react-router-dom';
-import logo from './imagens/polvinhobranco.png';
-import recenticon from './imagens/recenticon.png';
-import genreicon from './imagens/genreicon.png';
-import topicon from './imagens/topicon.png';
-import homeicon from './imagens/homeicon.png';
-import usericon from './imagens/usericon.png';
-import Slide from './slide';
-import './Header.css';
+import Footer from "../../componentes/Footer";
+import logo from './../../componentes/imagens/polvinhobranco.png';
+import recenticon from './../../componentes/imagens/recenticon.png';
+import genreicon from './../../componentes/imagens/genreicon.png';
+import topicon from './../../componentes/imagens/topicon.png';
+import homeicon from './../../componentes/imagens/homeicon.png';
+import usericon from './../../componentes/imagens/usericon.png';
+import './../../componentes/Header.css';
 
-const Header = () => {
+
+
+
+
+const Generos = () => {
     const navigate = useNavigate();
     const goToLoginPage = () => {
         navigate('/login');
@@ -50,9 +54,6 @@ const Header = () => {
                 </div>
             </nav>
 
-            <div>
-                <Slide />
-            </div>
             <div className={menu_class}>
                 <ul className="nav-style">
                     <li><img src={homeicon} alt='homeicon' className="homeicon"></img><a href="/">Inicío</a></li>
@@ -61,9 +62,11 @@ const Header = () => {
                     <li><img src={genreicon} alt='genreicon' className="genreicon"></img><a href="/generos">Genêros</a></li>
                 </ul>
             </div>
+            
+            <Footer/>
         </div>
+        
     )
 }
 
-export default Header;
-
+export default Generos;

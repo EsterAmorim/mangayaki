@@ -94,9 +94,9 @@ function UserPage() {
             <div className={menulogout_class}>
                 <ul className="nav-stylelogout">
                     <li><img src={homeicon} alt='homeicon' className="homeiconlogout"></img><a href="/userhome">Inicío</a></li>
-                    <li><img src={recenticon} alt='recenticon' className="recenticonlogout "></img><a href="#">Recentes</a></li>
-                    <li><img src={topicon} alt='topicon' className="topiconlogout"></img><a href="#">Top</a></li>
-                    <li><img src={genreicon} alt='genreicon' className="genreiconlogout"></img><a href="#">Genêros</a></li>
+                    <li><img src={recenticon} alt='recenticon' className="recenticonlogout "></img><a href="/recentes">Recentes</a></li>
+                    <li><img src={topicon} alt='topicon' className="topiconlogout"></img><a href="/top">Top</a></li>
+                    <li><img src={genreicon} alt='genreicon' className="genreiconlogout"></img><a href="/generos">Genêros</a></li>
                 </ul>
             </div>
 
