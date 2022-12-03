@@ -84,34 +84,6 @@ const Top = () => {
           </li>
         </ul>
       </div>
-      <div className="trend">
-        <ul>
-          {mangaTrends
-            ? mangaTrends.map(
-                ({
-                  id,
-                  attributes: {
-                    posterImage: { original },
-                  },
-                }) => (
-                  <li>
-                    <a
-                      href={
-                        "https://kitsu.io/api/edge/manga/" + id + "/chapters"
-                      }
-                    >
-                      <img
-                        key={id}
-                        src={original ?? "imagem nao encontrada"}
-                        alt="manga"
-                      ></img>
-                    </a>
-                  </li>
-                )
-              )
-            : "Nenhuma manga encontrado"}
-        </ul>
-      </div>
       <Footer />
     </div>
   );

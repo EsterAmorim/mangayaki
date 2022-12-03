@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.774a31bf.css",
+    "main.js": "/static/js/main.33c3ea23.js",
+    "static/js/787.89859d05.chunk.js": "/static/js/787.89859d05.chunk.js",
+    "static/media/manga5.png": "/static/media/manga5.0cab2982773122bcdeaf.png",
+    "static/media/manga3.png": "/static/media/manga3.89af76cc4e266daa9001.png",
+    "static/media/manga6.jpg": "/static/media/manga6.7efdc953612779849ca5.jpg",
+    "static/media/manga4.jpg": "/static/media/manga4.9741c5ac5345a32131e7.jpg",
+    "static/media/manga3.jpg": "/static/media/manga3.573174fb221b2d18e5a6.jpg",
+    "static/media/manga1.jpg": "/static/media/manga1.b052b3c3a366d9458390.jpg",
+    "static/media/manga2.jpg": "/static/media/manga2.48b389b8ba04911898aa.jpg",
+    "static/media/manga5.jpg": "/static/media/manga5.c58c48e8af4ccb1cb129.jpg",
+    "static/media/manga7.jpg": "/static/media/manga7.4d8c71fe65c75c473b40.jpg",
+    "static/media/manga10.jpg": "/static/media/manga10.41f7a4445b1dc920e75e.jpg",
+    "static/media/manga8.jpg": "/static/media/manga8.e08ede805e0c628a5c88.jpg",
+    "static/media/manga9.jpg": "/static/media/manga9.ead3b4b93e971714cdad.jpg",
+    "static/media/mangayakiLogo.png": "/static/media/mangayakiLogo.3ad8352bd1b14ebe02d4.png",
+    "static/media/polvinhobranco.png": "/static/media/polvinhobranco.e118388cf43a81cd0e4a.png",
+    "index.html": "/index.html",
+    "main.774a31bf.css.map": "/static/css/main.774a31bf.css.map",
+    "main.33c3ea23.js.map": "/static/js/main.33c3ea23.js.map",
+    "787.89859d05.chunk.js.map": "/static/js/787.89859d05.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.774a31bf.css",
+    "static/js/main.33c3ea23.js"
+  ]
+}
