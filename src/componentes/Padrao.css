@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Logo {
+    display: flex;
+    height: 55px;
+    margin-left: 10vh;
+    cursor: pointer;
+}
+
+.user {
+    display: flex;
+    margin-left: auto;
+}
+
+.buttonzinho {
+    cursor: pointer;
+    border: none;
+    display: block;
+    font-size: 15px;
+    color: #ffff;
+    text-transform: uppercase;
+    height: 50px;
+    background: #130A58;
+    border-radius: 4px;
+    transform: rotate(-0.1deg);
+    cursor: pointer;
+}
+
+button:active {
+    opacity: 0.8;
+}
+
+button:disabled {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+
+.nav-style a {
+    list-style: none;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: x-large;
+    color: white;
+    opacity: 1;
+
+}
+
+.nav-style li {
+    margin: 40px 0px;
+    cursor: pointer;
+    list-style: none;
+    max-width: 150px;
+}
+
+.nav-style .homeicon {
+    height: 35px;
+    margin: -10px;
+}
+
+.nav-style .recenticon {
+    height: 35px;
+    margin: -10px;
+}
+
+.nav-style .topicon {
+    height: 35px;
+    margin: -10px;
+}
+
+.nav-style .genreicon {
+    height: 35px;
+    margin: -10px;
+}
+
+
+/* ---------------- Navbar and burger menu ------------------ */
+nav {
+    position: fixed;
+    width: 100%;
+    height: 5em;
+    background-color: #4C369E;
+    display: flex;
+    justify-content: flex-start;
+    padding: 1em;
+    z-index: 2;
+}
+
+.burger-menu {
+    height: 100%;
+    width: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.burger-bar {
+    width: 4em;
+    height: 0.5em;
+    background-color: #FFFF;
+    border-radius: 0.5em;
+}
+
+.menu {
+    width: 18%;
+    height: 50vh;
+    background-color: #4C369E;
+    position: fixed;
+    top: 70px;
+    border-radius: 10px;
+    z-index: 2;
+
+}
+
+
+/* ------------- sliding menu ------------------
+.teste {
+    display: flex;
+    flex-direction: column;
+}
+
+*/
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: inherit;
+}
+
+/* ----- animations--------- */
+/* clicked */
+.burger-bar.clicked:nth-child(1) {
+    transform: rotate(45deg) translate(0.75em, 1.25em);
+    transition: ease-out 0.5s;
+}
+
+.burger-bar.clicked:nth-child(2) {
+    transform: scale(0.1);
+    transition: ease-out 0.5s;
+}
+
+.burger-bar.clicked:nth-child(3) {
+    transform: rotate(135deg) translate(-0.5em, 1em);
+    transition: ease-out 0.5s;
+}
+
+/* unclicked */
+.burger-bar.unclicked {
+    transform: rotate(0) translate(0);
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+}
