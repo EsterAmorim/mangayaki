@@ -15,8 +15,9 @@ const slide = () => {
             <div className="image">
                 <img src={manga1} alt='manga' />
             </div>
-            <div className="image">
+            <div className="image"><a href="##">
                 <img src={manga2} alt='manga' />
+                </a>
             </div>
             <div className="image">
                 <img src={manga3} alt='manga' />

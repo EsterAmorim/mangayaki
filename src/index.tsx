@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import * as firebase from 'firebase/app';
 import * as firebaseAuth from 'firebase/auth';
-
+/*
 const firebaseConfig = {
   apiKey: "AIzaSyDVmHYcM_pHdA6NV8H9t2TrKm0z4EVxOYs",
   authDomain: "mangayaki-e537e.firebaseapp.com",
@@ -15,6 +15,8 @@ const firebaseConfig = {
   appId: "1:464508321053:web:ab72a02b785b964b3875f4"
 };
 
+
+
 const app = firebase.initializeApp(firebaseConfig);
 
 const auth = firebaseAuth.initializeAuth(app);
@@ -22,7 +24,7 @@ firebaseAuth.signInWithEmailAndPassword(auth, 'teste@email.com', 'anyPassword')
 .then(user => console.log(user)).catch(error => console.log('error', error));
 
 
-
+*/
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
