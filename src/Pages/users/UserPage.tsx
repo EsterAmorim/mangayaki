@@ -71,7 +71,7 @@ function UserPage() {
 
     return (
         <div>
-            <nav>
+            <nav className="navUser">
                 <div className="burger-menulogout" onClick={updateMenu}>
                     <div className={burgerlogout_class}></div>
                     <div className={burgerlogout_class}></div>

@@ -37,7 +37,7 @@ const Padrao = () => {
 
     return (
         <div>
-            <nav>
+            <nav className="padraozao">
                 <div className="burger-menu" onClick={updateMenu}>
                     <div className={burger_class} ></div>
                     <div className={burger_class} ></div>

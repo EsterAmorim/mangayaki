@@ -136,7 +136,7 @@ button:disabled {
 
 
 /* ---------------- Navbar and burger menu ------------------ */
-nav {
+.navUser {
     position: fixed;
     width: 100%;
     height: 5em;

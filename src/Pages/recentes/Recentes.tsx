@@ -41,7 +41,7 @@ const Recentes = () => {
 
     return (
         <div>
-            <nav>
+            <nav className="navHeader">
                 <div className="burger-menu" onClick={updateMenu}>
                     <div className={burger_class} ></div>
                     <div className={burger_class} ></div>
