@@ -5,11 +5,11 @@ import Header from "../../componentes/Header";
 //import Padrao from "../../componentes/Padrao";
 import "./Top.css";
 
-const Top = () => {
+function Top() {
   const [mangaTrends, setMangaTrends] = useState([]);
   const [mangaTrends2, setMangaTrends2] = useState([]);
   const [mangaTrends3, setMangaTrends3] = useState([]);
-  
+
   useEffect(() => {
     fetch("https://kitsu.io/api/edge/trending/manga")
       .then((response) => response.json())
@@ -30,69 +30,66 @@ const Top = () => {
         <ul>
           {mangaTrends
             ? mangaTrends.map(
-                ({
-                  id,
-                  attributes: {
-                    posterImage: { original },
-                  },
-                }) => (
-                  <li>
-                    <a href={"##"}>
-                      <img
-                        key={id}
-                        src={original ?? "imagem nao encontrada"}
-                        alt="manga"
-                      ></img>
-                    </a>
-                  </li>
-                )
+              ({
+                id, attributes: {
+                  posterImage: { original },
+                },
+              }) => (
+                <li>
+                  <a href={"##"}>
+                    <img
+                      key={id}
+                      src={original ?? "imagem nao encontrada"}
+                      alt="manga"
+                    ></img>
+                  </a>
+                </li>
               )
+            )
             : "Nenhuma manga encontrado"}
           {mangaTrends2
             ? mangaTrends2.map(
-                ({
-                  id,
-                  attributes: {
-                    posterImage: { original },
-                  },
-                }) => (
-                  <li>
-                    <a href={"##"}>
-                      <img
-                        key={id}
-                        src={original ?? "imagem nao encontrada"}
-                        alt="manga"
-                      ></img>
-                    </a>
-                  </li>
-                )
+              ({
+                id, attributes: {
+                  posterImage: { original },
+                },
+              }) => (
+                <li>
+                  <a href={"##"}>
+                    <img
+                      key={id}
+                      src={original ?? "imagem nao encontrada"}
+                      alt="manga"
+                    ></img>
+                  </a>
+                </li>
               )
+            )
             : "Nenhuma manga encontrado"}
-            {mangaTrends3
+          {mangaTrends3
             ? mangaTrends3.map(
-                ({
-                  id,
-                  attributes: {
-                    posterImage: { original },
-                  },
-                }) => (
-                  <li>
-                    <a href={"##"}>
-                      <img
-                        key={id}
-                        src={original ?? "imagem nao encontrada"}
-                        alt="manga"
-                      ></img>
-                    </a>
-                  </li>
-                )
+              ({
+                id, attributes: {
+                  posterImage: { original },
+                },
+              }) => (
+                <li>
+                  <a href={"##"}>
+                    <img
+                      key={id}
+                      src={original ?? "imagem nao encontrada"}
+                      alt="manga"
+                    ></img>
+                  </a>
+                </li>
               )
+            )
             : "Nenhuma manga encontrado"}
         </ul>
       </div>
       <Footer />
     </div>
   );
-};
+}
 
 export default Top;
