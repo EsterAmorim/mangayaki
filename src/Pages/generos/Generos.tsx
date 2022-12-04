@@ -41,7 +41,7 @@ const Generos = () => {
 
     return (
         <div>
-            <nav>
+            <nav className="navheader">
                 <div className="burger-menu" onClick={updateMenu}>
                     <div className={burger_class} ></div>
                     <div className={burger_class} ></div>
