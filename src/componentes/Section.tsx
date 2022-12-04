@@ -12,13 +12,13 @@ function Section() {
 
     useEffect(()=> {
         
-        fetch('https://kitsu.io/api/edge/manga?page[limit]=5')
+        fetch('https://kitsu.io/api/edge/manga?page[limit]=10&page[offset]=100')
         .then(response => response.json())
         .then(response => setMangaPopular(response.data))
-        fetch('https://kitsu.io/api/edge/manga?page[limit]=5&page[offset]=200')
+        fetch('https://kitsu.io/api/edge/manga?page[limit]=10&page[offset]=200')
         .then(response => response.json())
         .then(response => setMangaMelhores(response.data))
-        fetch('https://kitsu.io/api/edge/manga?page[limit]=5&page[offset]=100')
+        fetch('https://kitsu.io/api/edge/manga?page[limit]=10&page[offset]=23')
         .then(response => response.json())
         .then(response => setMangaDoAno(response.data))
     })

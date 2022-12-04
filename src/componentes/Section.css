@@ -6,6 +6,7 @@
 
 .popular ul{
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
 }
 .popular img{
@@ -26,6 +27,7 @@
 
 .bestM ul{
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
 }
 .bestM img{
@@ -47,6 +49,7 @@
 
 .bestY ul{
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
 }
 .bestY img{
