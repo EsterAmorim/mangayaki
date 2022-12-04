@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+/*import React, { useEffect, useState } from "react";
 import Footer from "../../componentes/Footer";
 import Padrao from "../../componentes/Padrao";
 import "./ViewG.css";
@@ -41,4 +41,4 @@ function ViewG() {
 
 
 
-export default ViewG;
+export default ViewG;*/
