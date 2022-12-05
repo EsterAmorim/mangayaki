@@ -33,7 +33,7 @@ function ViewP() {
         <h1> Capítulos</h1>
         <div className="cap">
           <ul>
-            <a href="###"><li>Capítulo 1 - Surge o Príncipe</li></a>
+            <a href="/cap1p"><li>Capítulo 1 - Surge o Príncipe</li></a>
             <a href="###"><li>Capítulo 2 - O Samurai Júnior</li></a>
             <a href="###"><li>Capítulo 3 - Chegam os Veteranos</li></a>
             <a href="###"><li>Capítulo 4 - Um Homem Chamado Serpente</li></a>

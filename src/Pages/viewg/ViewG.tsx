@@ -29,7 +29,7 @@ function ViewG() {
         <h1> Capítulos</h1>
         <div className="cap">
           <ul>
-            <a href="###"><li>Capítulo 1 - Uzumaki Naruto!!</li></a>
+            <a href="/cap1n"><li>Capítulo 1 - Uzumaki Naruto!!</li></a>
             <a href="###"><li>Capítulo 2 - Konohamaru!!</li></a>
             <a href="###"><li>Capítulo 3 - Uchiha Sasuke!!</li></a>
             <a href="###"><li>Capítulo 4 - Hatake Kakashi!!</li></a>

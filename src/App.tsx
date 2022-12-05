@@ -10,6 +10,9 @@ import Top from './Pages/top/Top';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import ViewS from './Pages/viewg/ViewS';
 import ViewP from './Pages/viewg/ViewP';
+import Cap1S from './Pages/capitulos/Cap1S';
+import Cap1P from './Pages/capitulos/Cap1P';
+import Cap1N from './Pages/capitulos/Cap1N';
 
 function App() {
 
@@ -26,6 +29,9 @@ function App() {
       <Route path='/viewp' element={<ViewP/>}/>
       <Route path='/recentes' element={<Recentes/>}/>
       <Route path='/top' element={<Top/>}/>
+      <Route path='/cap1n' element={<Cap1N/>}/>
+      <Route path='/cap1p' element={<Cap1P/>}/>
+      <Route path='/cap1s' element={<Cap1S/>}/>
     </Routes>
     </BrowserRouter>
   )

@@ -87,6 +87,8 @@ button:disabled {
     justify-content: flex-start;
     padding: 1em;
     z-index: 2;
+    position: fixed;
+    margin-top: -13%;
 }
 
 .burger-menu {

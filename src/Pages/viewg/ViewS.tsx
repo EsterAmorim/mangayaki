@@ -6,7 +6,6 @@ import Footer from "../../componentes/Footer";
 import Padrao from "../../componentes/Padrao";
 
 
-
 import "./ViewG.css";
 
 function ViewS() {
@@ -33,7 +32,7 @@ function ViewS() {
         <h1> Capítulos</h1>
         <div className="cap">
           <ul>
-            <a href="###"><li>Capítulo 1 - Usagi - Sailor Moon</li></a>
+            <a href="/cap1s"><li>Capítulo 1 - Usagi - Sailor Moon</li></a>
             <a href="###"><li>Capítulo 2 - Ami Sailor Mercury</li></a>
             <a href="###"><li>Capítulo 3 - Rei - Sailor Mars</li></a>
             <a href="###"><li>Capítulo 4 - Baile de Máscaras</li></a>
