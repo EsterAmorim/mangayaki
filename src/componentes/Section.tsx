@@ -3,7 +3,7 @@ import { textSpanContainsPosition } from "typescript";
 //import axios from 'axios';
 import "./Section.css";
 
-const baseUrl = "https://kitsu.io/api/edge/manga";
+//const baseUrl = "https://kitsu.io/api/edge/manga";
 
 
 function Section() {
@@ -49,10 +49,6 @@ function Section() {
                         alt="manga"
                       ></img>
                     </a>
-                    <p>
-                      
-                    </p>
-
                   </li>
                 )
               )

@@ -4,7 +4,7 @@ import HomePage from './Pages/home/HomePage';
 import UserPage from './Pages/users/UserPage';
 import RegisterPage from './Pages/register/RegisterPage';
 import InteressePage from './Pages/interesse/InteressePage';
-//import ViewG from './Pages/viewg/ViewG';
+import ViewG from './Pages/viewg/ViewG';
 import Recentes from './Pages/recentes/Recentes';
 import Top from './Pages/top/Top';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
@@ -18,6 +18,7 @@ function App() {
       <Route path='/login' element={<LoginPage/>}/>
       <Route path='/register' element={<RegisterPage/>}/>
       <Route path='/' element={<HomePage/>}/>
+      <Route path='/viewg' element={<ViewG/>}/>
       <Route path='/userhome' element={<UserPage/>}/>
       <Route path='/interesse' element={<InteressePage/>} />
       <Route path='/recentes' element={<Recentes/>}/>
