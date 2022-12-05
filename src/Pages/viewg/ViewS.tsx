@@ -21,25 +21,35 @@ function ViewS() {
     <div>
       <Padrao />
       <div className="mangaview">
-        <h1>Sailor Moon</h1>
-          <img src="https://media.kitsu.io/manga/241/poster_image/medium-70647553c5862dd0483bd16f40787bf5.jpeg"></img>
-          <p> Tsukino Usagi is 14 years old and in her second year of middle school. She's a bit of a crybaby and klutzy. 
-            However, she can transform into a warrior of justice, Sailormoon! An eternal classic that should be read by all. </p>
+        <div className="descrition">
+          <h1>Sailor Moon</h1>
           <ul>
-          <a href="###"><li>Capitulo 1</li></a>
-          <a href="###"><li>Capitulo 2</li></a>
-          <a href="###"><li>Capitulo 3</li></a>
-          <a href="###"><li>Capitulo 4</li></a>
-          <a href="###"><li>Capitulo 5</li></a>
-          <a href="###"><li>Capitulo 6</li></a>
-          <a href="###"><li>Capitulo 7</li></a>
-          <a href="###"><li>Capitulo 8</li></a>
-          <a href="###"><li>Capitulo 9</li></a>
-          <a href="###"><li>Capitulo 10</li></a>
-          <a href="###"><li>Capitulo 11</li></a>
-          <a href="###"><li>Capitulo 12</li></a>
-
+            <h4>Tags:⠀⠀⠀⠀⠀⠀</h4><li>⠀Shojo</li><h5>⠀⠀⠀</h5><li>⠀comédia</li>
           </ul>
+          <img src="https://media.kitsu.io/manga/241/poster_image/medium-70647553c5862dd0483bd16f40787bf5.jpeg"></img>
+          <p> Tsukino Usagi is 14 years old and in her second year of middle school. She's a bit of a crybaby and klutzy.
+            However, she can transform into a warrior of justice, Sailormoon! An eternal classic that should be read by all. </p>
+        </div>
+        <h1> Capítulos</h1>
+        <div className="cap">
+          <ul>
+            <a href="###"><li>Capítulo 1 - Usagi - Sailor Moon</li></a>
+            <a href="###"><li>Capítulo 2 - Ami Sailor Mercury</li></a>
+            <a href="###"><li>Capítulo 3 - Rei - Sailor Mars</li></a>
+            <a href="###"><li>Capítulo 4 - Baile de Máscaras</li></a>
+            <a href="###"><li>Capítulo 5 - Makoto - Sailor Jupiter</li></a>
+            <a href="###"><li>Capítulo 6 - Tuxedo Mask</li></a>
+            <a href="###"><li>Capítulo 7 - Chiba Mamoru - Tuxedo Mask</li></a>
+            <a href="###"><li>Capítulo 8 - Minako - Sailor V</li></a>
+            <a href="###"><li>Capítulo 9 - Serenity - Princesa</li></a>
+            <a href="###"><li>Capítulo 10 - Lua</li></a>
+            <a href="###"><li>Capítulo 11 - Reunião - Endymion</li></a>
+            <a href="###"><li>Capítulo 12 - Batalha Decisiva - Reencarnação</li></a>
+            <a href="###"><li>Capítulo 13 - Um Fim e um Recomeço - A Pequena Estrangeira</li></a>
+            <a href="###"><li>Capítulo 14 - Black Moon Koan - Sailor Mars</li></a>
+            <a href="###"><li>Capítulo 15 - Black Moon Beruche - Sailor Mercury</li></a>
+          </ul>
+        </div>
       </div>
       <Footer />
     </div>

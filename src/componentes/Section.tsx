@@ -34,7 +34,7 @@ function Section() {
   return (
     <div className="homeC">
       <div className="popular">
-        <h2>Popular Agora</h2>
+        <h2>Mangás</h2>
         <ul>
           {mangaPopular
             ? mangaPopular.map(
@@ -54,11 +54,6 @@ function Section() {
                 )
               )
             : "Nenhuma manga encontrado"}
-        </ul>
-      </div>
-      <div className="bestM">
-        <h2>Melhores do Mês</h2>
-        <ul>
           {mangaMelhores
             ? mangaMelhores.map(
                 ({
@@ -77,11 +72,6 @@ function Section() {
                 )
               )
             : "Nenhuma manga encontrado"}
-        </ul>
-      </div>
-      <div className="bestY">
-        <h2>Melhores do Ano</h2>
-        <ul>
           {mangaDoAno
             ? mangaDoAno.map(
                 ({
