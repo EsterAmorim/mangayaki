@@ -9,7 +9,6 @@ import Recentes from './Pages/recentes/Recentes';
 import Top from './Pages/top/Top';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-
 function App() {
 
   return(
@@ -21,6 +20,7 @@ function App() {
       <Route path='/viewg' element={<ViewG/>}/>
       <Route path='/userhome' element={<UserPage/>}/>
       <Route path='/interesse' element={<InteressePage/>} />
+      <Route path='/viewg' element={<ViewG/>}/>
       <Route path='/recentes' element={<Recentes/>}/>
       <Route path='/top' element={<Top/>}/>
     </Routes>
