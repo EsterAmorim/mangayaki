@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { textSpanContainsPosition } from "typescript";
-//import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
 import "./Section.css";
-
-//const baseUrl = "https://kitsu.io/api/edge/manga";
 
 
 function Section() {
@@ -12,7 +10,7 @@ function Section() {
   const [mangaDoAno, setMangaDoAno] = useState([]);
 
   useEffect(() => {
-    fetch('https://kitsu.io/api/edge/manga?page[limit]=10&page[offset]=100}')
+    fetch("https://kitsu.io/api/edge/manga?page[limit]=10&page[offset]=100}")
       .then((response) => response.json())
       .then((response) => setMangaPopular(response.data));
     fetch("https://kitsu.io/api/edge/manga?page[limit]=10&page[offset]=200")
@@ -21,8 +19,17 @@ function Section() {
     fetch("https://kitsu.io/api/edge/manga?page[limit]=10&page[offset]=23")
       .then((response) => response.json())
       .then((response) => setMangaDoAno(response.data));
- 
   });
+  const navigate = useNavigate();
+  const goToViewG = () => {
+    navigate("/viewg");
+  }
+  const goToViewP = () => {
+    navigate("/viewp");
+  }
+  const goToViewS = () => {
+      navigate("/views");
+  };
 
   return (
     <div className="homeC">
@@ -38,17 +45,11 @@ function Section() {
                   },
                 }) => (
                   <li>
-                    <a
-                      href={
-                        "https://kitsu.io/api/edge/manga/" + id + "/chapters"
-                      }
-                    >
                       <img
                         key={id}
                         src={original ?? "imagem nao encontrada"}
-                        alt="manga"
+                        alt="manga" onClick={goToViewP}
                       ></img>
-                    </a>
                   </li>
                 )
               )
@@ -67,17 +68,11 @@ function Section() {
                   },
                 }) => (
                   <li>
-                    <a
-                      href={
-                        "https://kitsu.io/api/edge/manga" + id + "/chapters"
-                      }
-                    >
                       <img
                         key={id}
                         src={original ?? "imagem nao encontrada"}
-                        alt="manga"
+                        alt="manga" onClick={goToViewS}
                       ></img>
-                    </a>
                   </li>
                 )
               )
@@ -96,17 +91,11 @@ function Section() {
                   },
                 }) => (
                   <li>
-                    <a
-                      href={
-                        "https://kitsu.io/api/edge/manga" + id + "/chapters"
-                      }
-                    >
                       <img
                         key={id}
                         src={original ?? "imagem nao encontrada"}
-                        alt="manga"
+                        alt="manga" onClick={goToViewG}
                       ></img>
-                    </a>
                   </li>
                 )
               )

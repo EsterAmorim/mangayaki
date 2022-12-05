@@ -6,13 +6,14 @@ import Footer from "../../componentes/Footer";
 import Padrao from "../../componentes/Padrao";
 
 
+
 import "./ViewG.css";
 
-function ViewG() {
+function ViewS() {
   const [mangaNaruto, setMangaNaruto] = useState([]);
 
   useEffect(() => {
-    fetch("https://kitsu.io/api/edge/manga/?page[limit]=1&page[offset]=34")
+    fetch("https://kitsu.io/api/edge/manga/?page[limit]=1&page[offset]=240}")
       .then((response) => response.json())
       .then((response) => setMangaNaruto(response.data));
   });
@@ -20,9 +21,10 @@ function ViewG() {
     <div>
       <Padrao />
       <div className="mangaview">
-        <h1>Naruto</h1>
-          <img src="https://media.kitsu.io/manga/poster_images/35/original.png"></img>
-          <p>Before Naruto's birth, a great demon fox had attacked the Hidden Leaf Village. A man known as the 4th Hokage sealed the demon inside the newly born Naruto, causing him to unknowingly grow up detested by his fellow villagers. Despite his lack of talent in many areas of ninjutsu, Naruto strives for only one goal: to gain the title of Hokage, the strongest ninja in his village. Desiring the respect he never received, Naruto works towards his dream with fellow friends Sasuke and Sakura and mentor Kakashi as they go through many trials and battles that come with being a ninja. </p>
+        <h1>Sailor Moon</h1>
+          <img src="https://media.kitsu.io/manga/241/poster_image/medium-70647553c5862dd0483bd16f40787bf5.jpeg"></img>
+          <p> Tsukino Usagi is 14 years old and in her second year of middle school. She's a bit of a crybaby and klutzy. 
+            However, she can transform into a warrior of justice, Sailormoon! An eternal classic that should be read by all. </p>
           <ul>
           <a href="###"><li>Capitulo 1</li></a>
           <a href="###"><li>Capitulo 2</li></a>
@@ -43,4 +45,4 @@ function ViewG() {
     </div>
   );
 }
-export default ViewG;
+export default ViewS;
