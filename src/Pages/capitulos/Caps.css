@@ -46,3 +46,100 @@
 .pupus img{
     width: 1000px;
 }
+
+@media only screen and (max-width:1200px){
+    .pagess{
+        margin-left: 22%;
+        margin-top: 24%;
+    }
+}
+
+@media only screen and (max-width:900px){
+    .pagess{
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .pagess{
+        margin-left: 11%;
+    }
+    
+    .pagess img{
+        width: 500px;
+    }
+    
+    .pupus img{
+        width: 500px;
+    }
+    .navcaps ul{
+        margin-left: 28%;
+    }
+    
+    .setals{
+        width: 10%;
+        margin-top: 5%;
+    }
+
+    .textuus{
+        width: 30%;
+        margin-top: 5%;
+    }
+    
+    .setars{
+        margin-top: 5%;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .pagess{
+        margin-left: 21%;
+        margin-top: 40%;
+    }
+    
+    .pagess img{
+        width: 300px;
+    }
+    
+    .pupus img{
+        width: 300px;
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+    .pagess{
+        margin-left: 16%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .pagess{
+        margin-left: 11%;
+        margin-top: 34%;
+    }
+    
+    .setals{
+        margin-top: 10%;
+    }
+
+    .textuus{
+        width: 36%;
+        margin-top: 10%;
+    }
+    
+    .setars{
+        margin-top: 10%;
+    }
+
+    .navcaps ul{
+        margin-left: 16%;
+    }
+}
+
+
+@media only screen and (max-width: 450px){
+    .pagess{
+        margin-left: 4%;
+    }
+}

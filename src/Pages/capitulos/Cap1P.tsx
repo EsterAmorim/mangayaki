@@ -21,7 +21,7 @@ function Cap1P() {
             <Padrao />
             <nav className="navcapp">
             <ul>
-                <li className="setalp"><img src={setal} alt='seta'></img></li><li className="textuup"><h5>Capítulo 1/244</h5></li><li className="setar"><img src={setar} alt='seta'></img></li>
+                <li className="setalp"><img src={setal} alt='seta'></img></li><li className="textuup"><h5>Capítulo 1/244</h5></li><li className="setarp"><img src={setar} alt='seta'></img></li>
                 </ul>
             </nav>
             <div className="pagesp">

@@ -46,3 +46,100 @@
 .pupup img{
     width: 890px;
 }
+
+@media only screen and (max-width:1200px){
+    .pagesp{
+        margin-left: 22%;
+        margin-top: 24%;
+    }
+}
+
+@media only screen and (max-width:900px){
+    .pagesp{
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .pagesp{
+        margin-left: 11%;
+    }
+    
+    .pagesp img{
+        width: 500px;
+    }
+    
+    .pupup img{
+        width: 500px;
+    }
+    .navcapp ul{
+        margin-left: 28%;
+    }
+    
+    .setalp{
+        width: 10%;
+        margin-top: 5%;
+    }
+
+    .textuup{
+        width: 30%;
+        margin-top: 5%;
+    }
+    
+    .setarp{
+        margin-top: 5%;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .pagesp{
+        margin-left: 21%;
+        margin-top: 40%;
+    }
+    
+    .pagesp img{
+        width: 300px;
+    }
+    
+    .pupup img{
+        width: 300px;
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+    .pagesp{
+        margin-left: 16%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .pagesp{
+        margin-left: 11%;
+        margin-top: 34%;
+    }
+    
+    .setalp{
+        margin-top: 10%;
+    }
+
+    .textuup{
+        width: 36%;
+        margin-top: 10%;
+    }
+    
+    .setarp{
+        margin-top: 10%;
+    }
+
+    .navcapp ul{
+        margin-left: 16%;
+    }
+}
+
+
+@media only screen and (max-width: 450px){
+    .pagesp{
+        margin-left: 4%;
+    }
+}
