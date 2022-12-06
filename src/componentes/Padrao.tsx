@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { useNavigate } from 'react-router-dom';
-import logo from './imagens/polvinhobranco.png';
+import logo from "./imagens/polvinhobranco.png";
 import recenticon from './imagens/recenticon.png';
 import genreicon from './imagens/genreicon.png';
 import topicon from './imagens/topicon.png';
