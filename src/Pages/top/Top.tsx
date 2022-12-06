@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import Footer from "../../componentes/Footer";
 import Header from "../../componentes/Header";
 //import Padrao from "../../componentes/Padrao";
-import "./Top.css";
+import './Topison.css';
 
 function Top() {
   const [mangaTrends, setMangaTrends] = useState([]);

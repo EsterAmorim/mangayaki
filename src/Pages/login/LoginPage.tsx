@@ -22,6 +22,9 @@ function LoginPage() {
     const goToRegisterPage = () => {
         navigate('/register');
     }
+    const goToUserHome = () =>{
+        navigate('/userhome')
+    }
     const goToHomePage = () => {
         navigate('/');
     }
@@ -77,7 +80,7 @@ function LoginPage() {
 
                             <button type='button'
                                 data-testid="login-button"
-                                disabled={!isEmailValid(form.email.value) || !form.password.value}> Entrar</button>
+                                disabled={!isEmailValid(form.email.value) || !form.password.value} onClick={goToUserHome}> Entrar</button>
                             <button type='button' data-testid="register-button"
                                 onClick={goToRegisterPage}> Criar nova conta</button>
                         </form>
