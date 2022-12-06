@@ -7,18 +7,18 @@
     background: rgba(0, 0, 0, 0.63);
 }
 
-.navcaps ul{
+.navcap ul{
     list-style: none;
     display: flex;
     margin-left: 40%;
     margin-top: 1%
 }
 
-.textuus{
+.textuu{
     width: 13%;
 }
 
-.setals{
+.setal{
     width: 6%;
 }
 

@@ -23,7 +23,7 @@
     color: #ffff;
     text-transform: uppercase;
     height: 50px;
-    background: #130A58;
+    background: #130a58;
     border-radius: 4px;
     transform: rotate(-0.1deg);
     cursor: pointer;
@@ -90,13 +90,14 @@ button:disabled {
 }
 
 .usermenu {
-    width: 18%;
-    height: 50vh;
-    background-color: #130A58;
+    width: 13%;
+    height: 41vh;
+    background-color: #4C369E;
     position: fixed;
-    top: 3px;
+    top: 100px;
     border-radius: 10px;
     z-index: 2;
+    left: 86%;
 }
 
 /*click event*/
@@ -107,7 +108,7 @@ button:disabled {
     margin-left: auto;
     width: 253px;
     height: 102px;
-    background: #2B2367;
+    background:#4C369E;
     border-radius: 10px;
     align-items: center;
     flex-direction: column;
