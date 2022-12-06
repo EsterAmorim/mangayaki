@@ -185,3 +185,10 @@ button:disabled {
         width: 42%;
     }
 }
+
+@media only screen and (max-width:400px){
+    .menu{
+        height: 43vh;
+        width: 50%;
+    }
+}
