@@ -51,7 +51,7 @@ const Padrao = () => {
             </nav>
 
             <div className={menupadrao_class}>
-                <ul className="navpadrao-style">
+                <ul className="nav-stylepadrao">
                     <li><img src={homeicon} alt='homeicon' className="homeiconpadrao"></img><a href="/">Inicío</a></li>
                     <li><img src={recenticon} alt='recenticon' className="recenticonpadrao"></img><a href="/recentes">Recentes</a></li>
                     <li><img src={topicon} alt='topicon' className="topiconpadrao"></img><a href="/top">Top</a></li>
