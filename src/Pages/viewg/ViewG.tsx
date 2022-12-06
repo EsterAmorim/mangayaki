@@ -18,13 +18,15 @@ function ViewG() {
         <div className="descrition">
           <h1>Naruto</h1>
           <ul>
-            <h4>Tags:⠀⠀⠀⠀⠀⠀</h4>
+            <h4>Tags:⠀⠀</h4>
             <li>⠀shounen</li>
             <h5>⠀⠀⠀</h5>
             <li>⠀comédia</li>
           </ul>
           <img src="https://media.kitsu.io/manga/poster_images/35/original.png"></img>
-          <p>Before Naruto's birth, a great demon fox had attacked the Hidden Leaf Village. A man known as the 4th Hokage sealed the demon inside the newly born Naruto, causing him to unknowingly grow up detested by his fellow villagers. Despite his lack of talent in many areas of ninjutsu, Naruto strives for only one goal: to gain the title of Hokage, the strongest ninja in his village. Desiring the respect he never received, Naruto works towards his dream with fellow friends Sasuke and Sakura and mentor Kakashi as they go through many trials and battles that come with being a ninja. </p>
+          <p>Before Naruto's birth, a great demon fox had attacked the Hidden Leaf Village. 
+            A man known as the 4th Hokage sealed the demon inside the newly born Naruto, causing him to unknowingly grow up detested by his fellow villagers.
+            Despite his lack of talent in many areas of ninjutsu, Naruto strives for only one goal: to gain the title of Hokage, the strongest ninja in his village.</p>
         </div>
         <div className="captitulo"> <h1> Capítulos</h1></div>
         <div className="cap">

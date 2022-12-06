@@ -94,3 +94,132 @@ color: #8472C6;
     position: sticky;
     margin-bottom: -8%;
 }
+
+@media only screen and (max-width:1300px){
+    .descrition p{
+        width: 54%;
+        margin-left: 38%;
+        margin-top: -36%;
+    }
+}
+
+@media only screen and (max-width:1200px){
+    .descrition p{
+        width: 63%;
+        margin-left: 37%;
+        margin-top: -34%;
+    }
+}
+
+@media only screen and (max-width:1150px){
+    .descrition p{
+        width: 50%;
+        margin-left: 42%;
+        margin-top: -35%;
+    }
+}
+
+@media only screen and (max-width:900px){
+    .descrition {
+        width: 70%;
+    }
+    
+    .cap{
+        width: 46%;
+    }
+}
+
+@media only screen and (max-width:700px){
+    .descrition {
+        width: 85%;
+    }
+    
+    .cap{
+        width: 54%;
+    }
+    
+    .captitulo{
+        margin-top: 14%;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .descrition {
+        width: 95%;
+        left: 0%;
+    }
+    
+    .cap{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .descrition {
+        width: 85%;
+    }
+    
+    .descrition p{
+        margin-left: 44%;
+        width: 56%;
+        margin-top: -60%;
+    }
+
+    .descrition img{
+        width: 123px;
+        height: 157px;
+        margin: 40px 4px 20px 9px
+    }
+    
+    .descrition h1{
+        margin-left: 21%;
+    }
+
+    .descrition ul{
+        margin-top: 4%;
+        margin-left: 3%;
+    } 
+
+    .cap{
+        width: 94%;
+    }
+    
+    .captitulo{
+        margin-top: 22%;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .descrition {
+        width: 85%;
+    }
+    
+    .descrition p{
+        margin-left: 44%;
+        width: 56%;
+        margin-top: -30%;
+    }
+
+    .descrition img{
+        width: 146px;
+        height: 197px;
+        margin: 16px 20px -60px 8px;
+    }
+    
+    .descrition h1{
+        margin-left: 27%;
+    }
+
+    .descrition ul{
+        margin-top: 2%;
+        margin-left: 16%;
+    } 
+
+    .cap{
+        width: 88%;
+    }
+    
+    .captitulo{
+        margin-top: 22%;
+    }
+}

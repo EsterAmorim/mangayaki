@@ -19,11 +19,11 @@ function Cap1N() {
     return (
         <div>
             <Padrao />
-            <nav className="navcap">
+            <div className="navcap">
                 <ul>
-                <li className="setal"><img src={setal} alt='seta'></img></li><li className="textuu"><h5>Capítulo 1/244</h5></li><li><img src={setar} alt='seta'></img></li>
+                <li className="setal"><img src={setal} alt='seta'></img></li><li className="textuu"><h5>Capítulo 1/244</h5></li><li className="setar"><img src={setar} alt='seta'></img></li>
                 </ul>
-            </nav>
+            </div>
             <div className="pages">
                 <ul>
                     <li><img src={um} alt='page'></img></li>

@@ -20,7 +20,7 @@ function ViewS() {
         <div className="descrition">
           <h1>Sailor Moon</h1>
           <ul>
-            <h4>Tags:⠀⠀⠀⠀⠀⠀</h4><li>⠀Shojo</li><h5>⠀⠀⠀</h5><li>⠀comédia</li>
+            <h4>Tags:⠀⠀</h4><li>⠀Shojo</li><h5>⠀⠀⠀</h5><li>⠀comédia</li>
           </ul>
           <img src="https://media.kitsu.io/manga/241/poster_image/medium-70647553c5862dd0483bd16f40787bf5.jpeg"></img>
           <p> Tsukino Usagi is 14 years old and in her second year of middle school. She's a bit of a crybaby and klutzy.
