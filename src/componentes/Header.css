@@ -156,3 +156,32 @@ button:disabled {
     transform: rotate(0) translate(0);
     transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
 }
+
+@media only screen and (max-width:950){
+    .menu{
+        width: 22%;
+        height: 43vh;
+    }
+
+}
+
+@media only screen and (max-width:750px){
+    .menu{
+        height: 43vh;
+        width: 27%;
+    }
+}
+
+@media only screen and (max-width:650px){
+    .menu{
+        height: 43vh;
+        width: 33%;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .menu{
+        height: 43vh;
+        width: 42%;
+    }
+}

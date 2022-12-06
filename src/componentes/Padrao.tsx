@@ -18,19 +18,19 @@ const Padrao = () => {
         navigate('/');
     }
     // to change burger classes
-    const [burger_class, setBurgerClass] = useState("burger-bar unclicked")
-    const [menu_class, setMenuClass] = useState("menu hidden")
+    const [burgerpadrao_class, setBurgerPadraoClass] = useState("burgerpadrao-bar unclickedpadrao")
+    const [menupadrao_class, setMenuPadraoClass] = useState("menupadrao hiddenpadrao")
     const [isMenuClicked, setIsMenuClicked] = useState(false)
 
     // toggle burger menu change
     const updateMenu = () => {
         if (!isMenuClicked) {
-            setBurgerClass("burger-bar clicked")
-            setMenuClass("menu visible")
+            setBurgerPadraoClass("burgerpadrao-bar clickedpadrao")
+            setMenuPadraoClass("menupadrao visiblepadrao")
         }
         else {
-            setBurgerClass("burger-bar unclicked")
-            setMenuClass("menu hidden")
+            setBurgerPadraoClass("burgerpadrao-bar unclickedpadrao")
+            setMenuPadraoClass("menupadrao hiddenpadrao")
         }
         setIsMenuClicked(!isMenuClicked)
     }
@@ -38,24 +38,24 @@ const Padrao = () => {
     return (
         <div>
             <nav className="padraozao">
-                <div className="burger-menu" onClick={updateMenu}>
-                    <div className={burger_class} ></div>
-                    <div className={burger_class} ></div>
-                    <div className={burger_class} ></div>
+                <div className="burgerpadrao-menu" onClick={updateMenu}>
+                    <div className={burgerpadrao_class} ></div>
+                    <div className={burgerpadrao_class} ></div>
+                    <div className={burgerpadrao_class} ></div>
                 </div>
-                <img src={logo} alt='logo' className='Logo' onClick={goToHomePage}></img>
-                <div className="user">
+                <img src={logo} alt='logo' className='Logopadrao' onClick={goToHomePage}></img>
+                <div className="userpadrao">
                     <img src={usericon} alt='usericon'></img>
-                    <button type="button" onClick={goToLoginPage} className="buttonzinho">Fazer Login</button>
+                    <button type="button" onClick={goToLoginPage} className="buttonzinhopadrao">Fazer Login</button>
                 </div>
             </nav>
 
-            <div className={menu_class}>
-                <ul className="nav-style">
-                    <li><img src={homeicon} alt='homeicon' className="homeicon"></img><a href="/">Inicío</a></li>
-                    <li><img src={recenticon} alt='recenticon' className="recenticon"></img><a href="/recentes">Recentes</a></li>
-                    <li><img src={topicon} alt='topicon' className="topicon"></img><a href="/top">Top</a></li>
-                    <li><img src={genreicon} alt='genreicon' className="genreicon"></img><a href="/generos">Genêros</a></li>
+            <div className={menupadrao_class}>
+                <ul className="navpadrao-style">
+                    <li><img src={homeicon} alt='homeicon' className="homeiconpadrao"></img><a href="/">Inicío</a></li>
+                    <li><img src={recenticon} alt='recenticon' className="recenticonpadrao"></img><a href="/recentes">Recentes</a></li>
+                    <li><img src={topicon} alt='topicon' className="topiconpadrao"></img><a href="/top">Top</a></li>
+                    <li><img src={genreicon} alt='genreicon' className="genreiconpadrao"></img><a href="/generos">Genêros</a></li>
                 </ul>
             </div>
         </div>
