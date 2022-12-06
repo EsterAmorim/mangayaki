@@ -2,7 +2,7 @@
     position: relative;
     width: 100%;
     height: 70px;
-    top: 62px;
+    top: 60px;
     z-index: 1;
     background: rgba(0, 0, 0, 0.63);
 }
@@ -50,4 +50,100 @@
 
 .pupu img{
     width: 590px;
+}
+
+
+@media only screen and (max-width:1200px){
+    .pages{
+        margin-left: 22%;
+    }
+}
+
+@media only screen and (max-width:900px){
+    .pages{
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .pages{
+        margin-left: 11%;
+    }
+    
+    .pages img{
+        width: 500px;
+    }
+    
+    .pupu img{
+        width: 500px;
+    }
+    .navcap ul{
+        margin-left: 28%;
+    }
+    
+    .setal{
+        width: 10%;
+        margin-top: 5%;
+    }
+
+    .textuu{
+        width: 30%;
+        margin-top: 5%;
+    }
+    
+    .setar{
+        margin-top: 5%;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .pages{
+        margin-left: 21%;
+    }
+    
+    .pages img{
+        width: 300px;
+    }
+    
+    .pupu img{
+        width: 300px;
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+    .pages{
+        margin-left: 16%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .pages{
+        margin-left: 11%;
+        margin-top: 17%;
+    }
+    
+    .setal{
+        margin-top: 10%;
+    }
+
+    .textuu{
+        width: 36%;
+        margin-top: 10%;
+    }
+    
+    .setar{
+        margin-top: 10%;
+    }
+
+    .navcap ul{
+        margin-left: 16%;
+    }
+}
+
+
+@media only screen and (max-width: 450px){
+    .pages{
+        margin-left: 4%;
+    }
 }

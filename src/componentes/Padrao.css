@@ -87,7 +87,7 @@ button:disabled {
     justify-content: flex-start;
     padding: 1em;
     z-index: 2;
-    margin-top: -1%;
+    top: 0px;
     position: fixed;
 }
 
